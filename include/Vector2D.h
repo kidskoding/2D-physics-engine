@@ -24,9 +24,6 @@ public:
 
     Vector2D normalize() const;
 
-    float dotProduct(const Vector2D& other) const;
-    float crossProduct(const Vector2D& other) const;
-
     Vector2D perpendicular() const;
 };
 

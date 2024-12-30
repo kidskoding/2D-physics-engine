@@ -15,13 +15,6 @@ Vector2D Vector2D::normalize() const {
     return Vector2D(0, 0);
 }
 
-float Vector2D::dotProduct(const Vector2D& other) const {
-    return (x * other.x) + (y * other.y);
-}
-float Vector2D::crossProduct(const Vector2D& other) const {
-    return (x * other.y) - (y * other.x);
-}
-
 Vector2D Vector2D::perpendicular() const {
     return Vector2D(-y, x);
 }

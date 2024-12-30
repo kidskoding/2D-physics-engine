@@ -11,11 +11,9 @@ class Rigidbody2D {
 public:
     Rigidbody2D(float x, float y, float mass);
 
-
     Vector2D getPosition() const;
     Vector2D getVelocity() const;
     float getMass() const;
-
 
     void addForce(const Vector2D& force);
     void update(float deltatime);

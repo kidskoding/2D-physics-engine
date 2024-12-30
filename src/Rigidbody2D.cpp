@@ -21,10 +21,10 @@ void Rigidbody2D::addForce(const Vector2D& force)
 
 void Rigidbody2D::update(float deltatime)
 {
-    const Vector2D gravity(0.0, -9.8);
+    const Vector2D gravity(0.0, 9.8);
     acceleration = acceleration + gravity;
 
-    const float frictionCoefficient = 0.1f;
+    const float frictionCoefficient = 0.01f;
     if (velocity.magnitude() > 0.0f) {
         Vector2D friction = velocity.normalize() * -frictionCoefficient;
         acceleration = acceleration + friction;
