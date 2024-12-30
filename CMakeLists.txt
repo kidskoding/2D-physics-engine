@@ -12,5 +12,8 @@ FetchContent_Declare(SFML
     SYSTEM)
 FetchContent_MakeAvailable(SFML)
 
-add_executable(main src/main.cpp)
+include_directories(include)
+
+add_executable(main src/main.cpp
+        src/Vector2D.cpp)
 target_link_libraries(main PRIVATE SFML::Graphics)
