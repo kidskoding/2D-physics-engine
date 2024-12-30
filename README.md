@@ -1,4 +1,4 @@
-2d-physics-engine
+# 2D-physics-engine
 
 A 2D physics engine written in C++ that simulates realistic motion, collisions, and rigid body dynamics in a 2D space.
 
