@@ -15,5 +15,6 @@ FetchContent_MakeAvailable(SFML)
 include_directories(include)
 
 add_executable(main src/main.cpp
-        src/Vector2D.cpp)
+        src/Vector2D.cpp
+        src/Rigidbody2D.cpp)
 target_link_libraries(main PRIVATE SFML::Graphics)
