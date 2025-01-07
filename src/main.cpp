@@ -5,13 +5,13 @@
 int main()
 {
     auto window = sf::RenderWindow(sf::VideoMode({500u, 500u}), "CMake SFML Project");
-    window.setFramerateLimit(144);
+    window.setFramerateLimit(60);
 
     sf::CircleShape shape(50.0f);
     shape.setFillColor(sf::Color::Green);
 
     Rigidbody2D ball(100.0f, 100.0f, 1.0f);
-    ball.addForce(Vector2D(0, 100000.0f));
+    ball.addForce(Vector2D(0, 10.0f));
 
     while (window.isOpen())
     {
