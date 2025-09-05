@@ -20,6 +20,27 @@ public:
         return Vector2D(this->x / scalar, this->y / scalar);
     }
 
+    Vector2D& operator+=(const Vector2D& other) {
+        this->x += other.x;
+        this->y += other.y;
+        return *this;
+    }
+    Vector2D& operator-=(const Vector2D& other) {
+        this->x -= other.x;
+        this->y -= other.y;
+        return *this;
+    }
+    Vector2D& operator*=(float scalar) {
+        this->x *= scalar;
+        this->y *= scalar;
+        return *this;
+    }
+    Vector2D& operator/=(float scalar) {
+        this->x /= scalar;
+        this->y /= scalar;
+        return *this;
+    }
+
     float magnitude() const;
     Vector2D normalize() const;
     Vector2D perpendicular() const;
