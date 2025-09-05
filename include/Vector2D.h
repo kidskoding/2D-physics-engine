@@ -48,6 +48,10 @@ public:
         return !(*this == other);
     }
 
+    Vector2D operator-() const {
+        return Vector2D(-x, -y);
+    }
+
     float magnitude() const;
     Vector2D normalize() const;
     Vector2D perpendicular() const;
