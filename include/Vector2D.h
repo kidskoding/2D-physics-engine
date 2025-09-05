@@ -41,6 +41,13 @@ public:
         return *this;
     }
 
+    bool operator==(const Vector2D& other) const {
+        return x == other.x && y == other.y;
+    }
+    bool operator!=(const Vector2D& other) const {
+        return !(*this == other);
+    }
+
     float magnitude() const;
     Vector2D normalize() const;
     Vector2D perpendicular() const;
