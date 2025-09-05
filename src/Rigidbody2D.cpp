@@ -1,7 +1,9 @@
 #include "Rigidbody2D.h"
 
+#include <Collider2D.h>
+
 Rigidbody2D::Rigidbody2D(float x, float y, float mass)
-   : position(x, y), velocity(0, 0), mass(mass), acceleration(0, 0) {}
+    : mass(mass), position(x, y), velocity(0, 0), acceleration(0, 0), collider(nullptr) {}
 
 Vector2D Rigidbody2D::getPosition() const {
     return position;
@@ -9,18 +11,26 @@ Vector2D Rigidbody2D::getPosition() const {
 Vector2D Rigidbody2D::getVelocity() const {
     return velocity;
 }
-float Rigidbody2D::getMass() const
-{
+float Rigidbody2D::getMass() const {
     return mass;
 }
 
-void Rigidbody2D::addForce(const Vector2D& force)
-{
+void Rigidbody2D::setVelocity(Vector2D velocity) {
+    this->velocity = velocity;
+}
+void Rigidbody2D::setPosition(const Vector2D& position) {
+    this->position = position;
+}
+
+void Rigidbody2D::addForce(const Vector2D& force) {
     acceleration = acceleration + force / mass;
 }
 
-void Rigidbody2D::update(float deltatime)
-{
+void Rigidbody2D::addCollider(Collider2D* collider) {
+    this->collider = collider;
+}
+
+void Rigidbody2D::update(float deltatime) {
     const Vector2D gravity(0.0, 9.8 * 100);
     addForce(gravity * mass);
 

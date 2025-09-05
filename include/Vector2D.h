@@ -21,9 +21,7 @@ public:
     }
 
     float magnitude() const;
-
     Vector2D normalize() const;
-
     Vector2D perpendicular() const;
 };
 

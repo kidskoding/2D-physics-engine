@@ -1,0 +1,10 @@
+add_rules("mode.debug", "mode.release")
+set_languages("cxx17")
+
+target("2D-physics-engine")
+    set_kind("binary")
+    add_files("src/*.cpp")
+    add_includedirs("include")
+    add_includedirs("/opt/homebrew/opt/sfml@2/include")
+    add_linkdirs("/opt/homebrew/opt/sfml@2/lib")
+    add_links("sfml-graphics", "sfml-window", "sfml-system")

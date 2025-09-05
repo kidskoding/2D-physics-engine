@@ -1,0 +1,31 @@
+[
+{
+  "directory": "/Users/anirudh/UIUC/go-mama-27/personal-projects/2D-physics-engine",
+  "arguments": ["/Library/Developer/CommandLineTools/usr/bin/clang", "-c", "-Qunused-arguments", "-isysroot", "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++17", "-Iinclude", "-I/opt/homebrew/opt/sfml@2/include", "-DNDEBUG", "-o", "build/.objs/2D-physics-engine/macosx/arm64/release/src/Rigidbody2D.cpp.o", "src/Rigidbody2D.cpp"],
+  "file": "src/Rigidbody2D.cpp"
+},
+{
+  "directory": "/Users/anirudh/UIUC/go-mama-27/personal-projects/2D-physics-engine",
+  "arguments": ["/Library/Developer/CommandLineTools/usr/bin/clang", "-c", "-Qunused-arguments", "-isysroot", "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++17", "-Iinclude", "-I/opt/homebrew/opt/sfml@2/include", "-DNDEBUG", "-o", "build/.objs/2D-physics-engine/macosx/arm64/release/src/PhysicsObject.cpp.o", "src/PhysicsObject.cpp"],
+  "file": "src/PhysicsObject.cpp"
+},
+{
+  "directory": "/Users/anirudh/UIUC/go-mama-27/personal-projects/2D-physics-engine",
+  "arguments": ["/Library/Developer/CommandLineTools/usr/bin/clang", "-c", "-Qunused-arguments", "-isysroot", "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++17", "-Iinclude", "-I/opt/homebrew/opt/sfml@2/include", "-DNDEBUG", "-o", "build/.objs/2D-physics-engine/macosx/arm64/release/src/Vector2D.cpp.o", "src/Vector2D.cpp"],
+  "file": "src/Vector2D.cpp"
+},
+{
+  "directory": "/Users/anirudh/UIUC/go-mama-27/personal-projects/2D-physics-engine",
+  "arguments": ["/Library/Developer/CommandLineTools/usr/bin/clang", "-c", "-Qunused-arguments", "-isysroot", "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++17", "-Iinclude", "-I/opt/homebrew/opt/sfml@2/include", "-DNDEBUG", "-o", "build/.objs/2D-physics-engine/macosx/arm64/release/src/BoxCollider2D.cpp.o", "src/BoxCollider2D.cpp"],
+  "file": "src/BoxCollider2D.cpp"
+},
+{
+  "directory": "/Users/anirudh/UIUC/go-mama-27/personal-projects/2D-physics-engine",
+  "arguments": ["/Library/Developer/CommandLineTools/usr/bin/clang", "-c", "-Qunused-arguments", "-isysroot", "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++17", "-Iinclude", "-I/opt/homebrew/opt/sfml@2/include", "-DNDEBUG", "-o", "build/.objs/2D-physics-engine/macosx/arm64/release/src/CircleCollider2D.cpp.o", "src/CircleCollider2D.cpp"],
+  "file": "src/CircleCollider2D.cpp"
+},
+{
+  "directory": "/Users/anirudh/UIUC/go-mama-27/personal-projects/2D-physics-engine",
+  "arguments": ["/Library/Developer/CommandLineTools/usr/bin/clang", "-c", "-Qunused-arguments", "-isysroot", "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++17", "-Iinclude", "-I/opt/homebrew/opt/sfml@2/include", "-DNDEBUG", "-o", "build/.objs/2D-physics-engine/macosx/arm64/release/src/main.cpp.o", "src/main.cpp"],
+  "file": "src/main.cpp"
+}]
